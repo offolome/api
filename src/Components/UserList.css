@@ -1,0 +1,36 @@
+/* UserList Css */
+.table-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.table-list .table {
+  border-collapse: collapse;
+  min-width: 500px;
+  width: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+thead tr {
+  background-color: #1f1d1d;
+  color: white;
+}
+
+th,
+td {
+  padding: 15px 20px;
+}
+
+tbody,
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
